@@ -1,7 +1,11 @@
 cl-id3
 ======
 
-A Common Lisp implementation of the ID3 algorithm by R. Quinlan.
+A Common Lisp implementation of the ID3 machine learning algorithm by R. Quinlan.
+
+It generates decision trees from example instances that have discrete variables. Further, it can generate a function that traverses that tree to classify new instances from outside the training data (e.g. where one variable is missing).
+
+Here's an example of how to use it:
 
 ```common-lisp
 CL-USER> 
